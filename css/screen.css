@@ -216,6 +216,7 @@ html {
   text-align: center;
   text-rendering: optimizeLegibility;
   font-size: 50px;
+  display: inline-block;
 }
 
 h1 {
@@ -223,6 +224,7 @@ h1 {
   padding: 75px;
   border-style: none;
   color: #5F5F5F;
+  margin-top: 18px;
   margin-bottom: 18px;
   text-align: center;
   line-height: 50px;
@@ -233,6 +235,7 @@ p {
   padding-bottom: 50px;
   border-style: none;
   color: #5F5F5F;
+  margin-top: 18px;
   margin-bottom: 18px;
   text-align: center;
   line-height: 50px;
@@ -259,6 +262,10 @@ input {
   color: #5F5F5F;
   background-color: #d1d1e0;
   font-size: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  width: fit-content(20em);
 }
 
 @media only screen and (min-width: 720px) {
